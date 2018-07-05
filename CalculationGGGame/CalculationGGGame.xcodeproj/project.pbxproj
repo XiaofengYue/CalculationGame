@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AD54A7BE320AF491272547E /* libPods-CalculationGGGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 566F6B3554E3BCD0280ED253 /* libPods-CalculationGGGame.a */; };
+		EE62F62020EE44F000642F2C /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE62F61F20EE44F000642F2C /* DetailVC.m */; };
+		EE62F62420EE450E00642F2C /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE62F62220EE450E00642F2C /* DetailCell.m */; };
+		EE62F62520EE450E00642F2C /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE62F62320EE450E00642F2C /* DetailCell.xib */; };
+		EED8933A20EDBAAF00BFB9C1 /* QustionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EED8933920EDBAAF00BFB9C1 /* QustionVC.m */; };
 		EEEDA8C020EDA1A3009D282D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDA8BF20EDA1A3009D282D /* AppDelegate.m */; };
 		EEEDA8C320EDA1A3009D282D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDA8C220EDA1A3009D282D /* ViewController.m */; };
 		EEEDA8C620EDA1A3009D282D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEDA8C420EDA1A3009D282D /* Main.storyboard */; };
@@ -16,6 +21,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		566F6B3554E3BCD0280ED253 /* libPods-CalculationGGGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CalculationGGGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBC6D6D457E94E50FC8F6EF /* Pods-CalculationGGGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculationGGGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalculationGGGame/Pods-CalculationGGGame.release.xcconfig"; sourceTree = "<group>"; };
+		D9E7DBC62577D4F3531BE3B6 /* Pods-CalculationGGGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculationGGGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalculationGGGame/Pods-CalculationGGGame.debug.xcconfig"; sourceTree = "<group>"; };
+		EE62F61E20EE44F000642F2C /* DetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		EE62F61F20EE44F000642F2C /* DetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		EE62F62120EE450E00642F2C /* DetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
+		EE62F62220EE450E00642F2C /* DetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
+		EE62F62320EE450E00642F2C /* DetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
+		EED8933820EDBAAF00BFB9C1 /* QustionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QustionVC.h; sourceTree = "<group>"; };
+		EED8933920EDBAAF00BFB9C1 /* QustionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QustionVC.m; sourceTree = "<group>"; };
 		EEEDA8BB20EDA1A3009D282D /* CalculationGGGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculationGGGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEDA8BE20EDA1A3009D282D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEEDA8BF20EDA1A3009D282D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,17 +48,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AD54A7BE320AF491272547E /* libPods-CalculationGGGame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56F1DACBB4CAC4DDFABDCBEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E7DBC62577D4F3531BE3B6 /* Pods-CalculationGGGame.debug.xcconfig */,
+				ADBC6D6D457E94E50FC8F6EF /* Pods-CalculationGGGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		622DB719074B9B0E4B2EC577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				566F6B3554E3BCD0280ED253 /* libPods-CalculationGGGame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EED8932820EDA4AA00BFB9C1 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		EED8932920EDA4B600BFB9C1 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				EE62F62120EE450E00642F2C /* DetailCell.h */,
+				EE62F62220EE450E00642F2C /* DetailCell.m */,
+				EE62F62320EE450E00642F2C /* DetailCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		EED8932A20EDA4BB00BFB9C1 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				EED8933820EDBAAF00BFB9C1 /* QustionVC.h */,
+				EED8933920EDBAAF00BFB9C1 /* QustionVC.m */,
+				EE62F61E20EE44F000642F2C /* DetailVC.h */,
+				EE62F61F20EE44F000642F2C /* DetailVC.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
 		EEEDA8B220EDA1A3009D282D = {
 			isa = PBXGroup;
 			children = (
 				EEEDA8BD20EDA1A3009D282D /* CalculationGGGame */,
 				EEEDA8BC20EDA1A3009D282D /* Products */,
+				56F1DACBB4CAC4DDFABDCBEB /* Pods */,
+				622DB719074B9B0E4B2EC577 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +121,9 @@
 		EEEDA8BD20EDA1A3009D282D /* CalculationGGGame */ = {
 			isa = PBXGroup;
 			children = (
+				EED8932A20EDA4BB00BFB9C1 /* C */,
+				EED8932920EDA4B600BFB9C1 /* V */,
+				EED8932820EDA4AA00BFB9C1 /* M */,
 				EEEDA8BE20EDA1A3009D282D /* AppDelegate.h */,
 				EEEDA8BF20EDA1A3009D282D /* AppDelegate.m */,
 				EEEDA8C120EDA1A3009D282D /* ViewController.h */,
@@ -78,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEEDA8D120EDA1A3009D282D /* Build configuration list for PBXNativeTarget "CalculationGGGame" */;
 			buildPhases = (
+				C81BE82F956E8614CC02B0BC /* [CP] Check Pods Manifest.lock */,
 				EEEDA8B720EDA1A3009D282D /* Sources */,
 				EEEDA8B820EDA1A3009D282D /* Frameworks */,
 				EEEDA8B920EDA1A3009D282D /* Resources */,
+				051E67E4950E69D89E6ECB9A /* [CP] Embed Pods Frameworks */,
+				11484E231B628EA9F3947F46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,11 +200,66 @@
 			files = (
 				EEEDA8CB20EDA1A3009D282D /* LaunchScreen.storyboard in Resources */,
 				EEEDA8C820EDA1A3009D282D /* Assets.xcassets in Resources */,
+				EE62F62520EE450E00642F2C /* DetailCell.xib in Resources */,
 				EEEDA8C620EDA1A3009D282D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		051E67E4950E69D89E6ECB9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalculationGGGame/Pods-CalculationGGGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11484E231B628EA9F3947F46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CalculationGGGame/Pods-CalculationGGGame-resources.sh",
+				"${PODS_ROOT}/BRPickerView/BRPickerView/AddressPickerView/BRCity.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalculationGGGame/Pods-CalculationGGGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81BE82F956E8614CC02B0BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalculationGGGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EEEDA8B720EDA1A3009D282D /* Sources */ = {
@@ -143,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEEDA8C320EDA1A3009D282D /* ViewController.m in Sources */,
+				EE62F62020EE44F000642F2C /* DetailVC.m in Sources */,
+				EE62F62420EE450E00642F2C /* DetailCell.m in Sources */,
+				EED8933A20EDBAAF00BFB9C1 /* QustionVC.m in Sources */,
 				EEEDA8CE20EDA1A3009D282D /* main.m in Sources */,
 				EEEDA8C020EDA1A3009D282D /* AppDelegate.m in Sources */,
 			);
@@ -276,6 +403,7 @@
 		};
 		EEEDA8D220EDA1A3009D282D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E7DBC62577D4F3531BE3B6 /* Pods-CalculationGGGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +418,7 @@
 		};
 		EEEDA8D320EDA1A3009D282D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADBC6D6D457E94E50FC8F6EF /* Pods-CalculationGGGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

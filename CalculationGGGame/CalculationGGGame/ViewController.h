@@ -11,5 +11,10 @@
 @interface ViewController : UIViewController
 
 
+@property (strong, nonatomic) IBOutlet UILabel *level;
+@property (strong, nonatomic) IBOutlet UILabel *levelChoose;
+@property (strong, nonatomic) IBOutlet UILabel *LanguageLabel;
+@property (strong, nonatomic) IBOutlet UIButton *StartBtn;
+
 @end
 
