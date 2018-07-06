@@ -54,7 +54,7 @@
 - (void)begin{
     [_QustionLabel setText:_questionArr[index++]];
     [_AnswerLabel setText:_answerArr[index-1]];
-    [_score setText:[NSString stringWithFormat:@"%d",totalScore]];
+    [_score setText:[NSString stringWithFormat:@"%d/%d",totalScore,index-1]];
     [_time setText:[NSString stringWithFormat:@"%d",second]];
     tempSecond = second;
     timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timeGo) userInfo:nil repeats:YES];
