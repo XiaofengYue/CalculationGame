@@ -11,6 +11,11 @@
 		EE62F62020EE44F000642F2C /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE62F61F20EE44F000642F2C /* DetailVC.m */; };
 		EE62F62420EE450E00642F2C /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE62F62220EE450E00642F2C /* DetailCell.m */; };
 		EE62F62520EE450E00642F2C /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE62F62320EE450E00642F2C /* DetailCell.xib */; };
+		EEB9BB0420F0EF7700669A21 /* 答题情况.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEB9BAFF20F0EF7600669A21 /* 答题情况.gif */; };
+		EEB9BB0520F0EF7700669A21 /* 倒计时.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEB9BB0020F0EF7600669A21 /* 倒计时.gif */; };
+		EEB9BB0620F0EF7700669A21 /* 语言选择.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEB9BB0120F0EF7600669A21 /* 语言选择.gif */; };
+		EEB9BB0720F0EF7700669A21 /* 难度选择.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEB9BB0220F0EF7600669A21 /* 难度选择.gif */; };
+		EEB9BB0820F0EF7700669A21 /* 随机生成式子.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEB9BB0320F0EF7600669A21 /* 随机生成式子.gif */; };
 		EED8933A20EDBAAF00BFB9C1 /* QustionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EED8933920EDBAAF00BFB9C1 /* QustionVC.m */; };
 		EEEDA8C020EDA1A3009D282D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDA8BF20EDA1A3009D282D /* AppDelegate.m */; };
 		EEEDA8C320EDA1A3009D282D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEDA8C220EDA1A3009D282D /* ViewController.m */; };
@@ -29,6 +34,11 @@
 		EE62F62120EE450E00642F2C /* DetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
 		EE62F62220EE450E00642F2C /* DetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
 		EE62F62320EE450E00642F2C /* DetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
+		EEB9BAFF20F0EF7600669A21 /* 答题情况.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "答题情况.gif"; sourceTree = "<group>"; };
+		EEB9BB0020F0EF7600669A21 /* 倒计时.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "倒计时.gif"; sourceTree = "<group>"; };
+		EEB9BB0120F0EF7600669A21 /* 语言选择.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "语言选择.gif"; sourceTree = "<group>"; };
+		EEB9BB0220F0EF7600669A21 /* 难度选择.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "难度选择.gif"; sourceTree = "<group>"; };
+		EEB9BB0320F0EF7600669A21 /* 随机生成式子.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "随机生成式子.gif"; sourceTree = "<group>"; };
 		EED8933820EDBAAF00BFB9C1 /* QustionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QustionVC.h; sourceTree = "<group>"; };
 		EED8933920EDBAAF00BFB9C1 /* QustionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QustionVC.m; sourceTree = "<group>"; };
 		EEEDA8BB20EDA1A3009D282D /* CalculationGGGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculationGGGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +80,18 @@
 				566F6B3554E3BCD0280ED253 /* libPods-CalculationGGGame.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB9BAFE20F0EF6800669A21 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9BAFF20F0EF7600669A21 /* 答题情况.gif */,
+				EEB9BB0020F0EF7600669A21 /* 倒计时.gif */,
+				EEB9BB0220F0EF7600669A21 /* 难度选择.gif */,
+				EEB9BB0320F0EF7600669A21 /* 随机生成式子.gif */,
+				EEB9BB0120F0EF7600669A21 /* 语言选择.gif */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		EED8932820EDA4AA00BFB9C1 /* M */ = {
@@ -121,6 +143,7 @@
 		EEEDA8BD20EDA1A3009D282D /* CalculationGGGame */ = {
 			isa = PBXGroup;
 			children = (
+				EEB9BAFE20F0EF6800669A21 /* Image */,
 				EED8932A20EDA4BB00BFB9C1 /* C */,
 				EED8932920EDA4B600BFB9C1 /* V */,
 				EED8932820EDA4AA00BFB9C1 /* M */,
@@ -198,9 +221,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB9BB0520F0EF7700669A21 /* 倒计时.gif in Resources */,
 				EEEDA8CB20EDA1A3009D282D /* LaunchScreen.storyboard in Resources */,
+				EEB9BB0720F0EF7700669A21 /* 难度选择.gif in Resources */,
+				EEB9BB0820F0EF7700669A21 /* 随机生成式子.gif in Resources */,
 				EEEDA8C820EDA1A3009D282D /* Assets.xcassets in Resources */,
 				EE62F62520EE450E00642F2C /* DetailCell.xib in Resources */,
+				EEB9BB0620F0EF7700669A21 /* 语言选择.gif in Resources */,
+				EEB9BB0420F0EF7700669A21 /* 答题情况.gif in Resources */,
 				EEEDA8C620EDA1A3009D282D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
