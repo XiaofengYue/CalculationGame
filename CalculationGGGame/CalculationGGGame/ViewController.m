@@ -11,7 +11,7 @@
 #import <BRPickerView.h>
 #import <KxMenu.h>
 #define NSLog(FORMAT, ...) printf("%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
-@interface ViewController ()
+@interface ViewController ()<UIPickerViewDelegate,UIPickerViewDataSource>
 
 @end
 
@@ -43,6 +43,16 @@
     _LanguageLabel.userInteractionEnabled = YES;
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(clicklang)];
     [_LanguageLabel addGestureRecognizer:tap];
+    language = [NSMutableArray array];
+    levelArr = [NSMutableArray array];
+    [language addObject:@"中文"];
+    [language addObject:@"英文"];
+    [levelArr addObject:@"10"];
+    [levelArr addObject:@"100"];
+    [levelArr addObject:@"1000"];
+    [levelArr addObject:@"10000"];
+    _levelPicker.delegate = self;
+    _levelPicker.dataSource = self;
 }
 
 #pragma mark ******核心功能******
@@ -56,14 +66,8 @@
     
     questionArr = [NSMutableArray array];
     answerArr = [NSMutableArray array];
-    language = [NSMutableArray array];
-    levelArr = [NSMutableArray array];
-    [language addObject:@"中文"];
-    [language addObject:@"英文"];
-    [levelArr addObject:@"10"];
-    [levelArr addObject:@"100"];
-    [levelArr addObject:@"1000"];
-    [levelArr addObject:@"10000"];
+    
+    
     
     int totalNum = [_levelChoose.text intValue];
     while (totalNum--) {
@@ -442,5 +446,24 @@
     _StartBtn.titleLabel.text = @"Démarrer le jeu";
     _level.text = @"Niveau";
     flag = 3;
+}
+
+#pragma mark ******Delegate******
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
+    return 1;
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
+    return 4;
+}
+
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
+    
+    return [NSString stringWithFormat:@"%@",levelArr[row]];
+}
+
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
+    _levelChoose.text = levelArr[row];
 }
 @end

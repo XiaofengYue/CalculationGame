@@ -30,7 +30,7 @@
 
 - (void)initView{
     _backView.layer.cornerRadius = _time.frame.size.width/2;
-    _backView.backgroundColor = [UIColor greenColor];
+    _backView.backgroundColor = [UIColor colorWithRed:114/255.0 green:200/255.0 blue:200/255.0 alpha:0.7];
     _QustionLabel.layer.cornerRadius = 6;
     _QustionLabel.clipsToBounds = YES;
     _score.textColor = [UIColor redColor];

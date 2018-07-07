@@ -15,6 +15,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *levelChoose;
 @property (strong, nonatomic) IBOutlet UILabel *LanguageLabel;
 @property (strong, nonatomic) IBOutlet UIButton *StartBtn;
+@property (strong, nonatomic) IBOutlet UIPickerView *levelPicker;
 
 @end
 
