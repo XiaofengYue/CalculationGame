@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0157C77EBF4B41604205727166077B87 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A51F40D5ED24752234DEF0A718B560F /* MJExtensionConst.m */; };
+		06F3309D70D994D57BF54DEB2D60DEA3 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 81AC18CDDABEFF6E9B46285117628A40 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2385D3E996832FA3B2B7008F8726A60D /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A8E30F19B980F8EE11540ACA1068C5 /* KxMenu.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		23B79318211688AFCC61F3D477396722 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7958D47C4C73A3523FAC0FB3700A7C37 /* NSString+MJExtension.m */; };
+		285139CF42A566A813806477C6DE36C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2E6B1170B9040EED4EA8FE23AC24B374 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = C31CEDF055BC63723C356A9A7C77A798 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F5B7A3EF2B3840B4D9596CA2D420739 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B68364E84EEDE486E62D7C703192171 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F9BA476FD718D0F5AB68FE44560316F /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A52F6F7199A2FC816633867661759B13 /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		511055D56946DC5DB52A121C0DD14FF9 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8830F0F854E0A2F32663AFADA9A60462 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51C0485EB36CDE6D46DFBCCD20920535 /* Pods-CalculationGGGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 349BCA57B68BB6B3637FADA5AC8CC4CE /* Pods-CalculationGGGame-dummy.m */; };
+		56B290135509F0465E67E8802C3DF484 /* BRAddressModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 33166FC6916C12AA8D40FBAA481C696D /* BRAddressModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5708972F26CF8BC9F10F9CA655F4E1B9 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D9FCA7DDA9AD4BD08F0CEAE1D34C52 /* MJPropertyKey.m */; };
+		57C1A413CF979F4645E65027B32F214B /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A6792D351352DEB87FDC47204ADDDF03 /* MJProperty.m */; };
+		587BAEE0249AA0790B86F924F27A17E6 /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3657C30C048916850E7E9052976067C7 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D9F2BA75B665846985DD7883503B0DB /* BRStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD438B992A02BCDBCCEC4BF8A8A3BFA9 /* BRStringPickerView.m */; };
+		6144883A20BE230CB743135FEBE8625B /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427422F9052A13CAC3D87510AF12EE5 /* MJPropertyType.m */; };
+		6B447E2F549A174A98FBC4E0758BB498 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7143A26B09BD25D6F572A1BF5DD381 /* MJExtension-dummy.m */; };
+		6BB319381D2532B796D9FAC7FE74E5E0 /* KxMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C6E9ECE3120388D4B5C29A3EE4A70 /* KxMenu-dummy.m */; };
+		70103BE3F912BC298982D7DDBB958C54 /* BRPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0534517B1A5448F46E70BEA92A44474 /* BRPickerView-dummy.m */; };
+		71E2EDA977B4F0B7EF414D05F0CAABD0 /* KxMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = A4350C21A62E5645554F0E509612A991 /* KxMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		733B6964C275EEA8A8215F86EC2CA331 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C667F98344DA368DFE198E3A0E47BD /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F027B04B2681A9D7ED7726889EF642A /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BA04CA5CF49C6B2A3A2F7025A4FAD1 /* MJFoundation.m */; };
+		9BBA96E17BA470D9CFE9516F32471D8E /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 62139EB09E9B69EF8ECAEC90DCE58A81 /* NSObject+MJClass.m */; };
+		9F305A34928FE4528A43B26EE4F08576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		9F70AB83091B164AE7A10A3ECE80209C /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CBC7DB7BDD807307D0C445C8E00513 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F06DAAF0E81777F12209C8B673A152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		AA48CA20DF9878B18A1CDFA55A8447D4 /* BRAddressPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C82AEAA1491BFD3295814FB482764339 /* BRAddressPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B38E09D6AD16121B102355697D6FAB2B /* BRAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B229D4B465576584220FA251F1441ECF /* BRAddressModel.m */; };
+		C0B55BAC467F79E8963BC7659BB0A95D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C0C3C538EFD71E3BCBFEC8D283055607 /* BRAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AABCCF0E2172DF064620254545240B3 /* BRAddressPickerView.m */; };
+		C30C791AB4DD40C71D9E9D5509A74F08 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BAFC55116D190E22A4DFB654A9BB0 /* NSObject+MJProperty.m */; };
+		C9AC19BB5011AD7096BB1E4E84B8F041 /* BRDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F44C851C5EDD8CAE34EA4803811C538F /* BRDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1B972C4534D645BBC4C6C6DF78C27E6 /* BRBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = E10D275F2BB6E3E47D8966634F05B73E /* BRBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2C355DF794FB3EF1D764370C0C13B13 /* BRPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D16B0A55DE0D6E2B040CBB8AD00DF6 /* BRPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35AB6C9F1E3AA6F6B9A23F55D83E4D0 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 600783F1F6949BDB0E07E0C2D2E7AF71 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB6A1DE009A298D4EDD6DB108156DA7F /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 91827AA99B56E713956169AB6F80065F /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED279F0FB3EE6BEA2171D0C360DFDC82 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = D19814BFF45BCBC752463474D3D4B9AD /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F298136BE62DC8F4CC2A4253F49F51AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F4B8B2A43A1D259930AC788A6C4C5AEC /* BRDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0173E7C7903DE26860609571026ECFF /* BRDatePickerView.m */; };
+		F567B035F976C2280258345F79EF0AEF /* BRBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD690B3B48011F5F99E7A6B057445CE7 /* BRBaseView.m */; };
+		FA17D0DEA07D8DE8EE38FC5B7613140C /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0A534709AB184C80BD5B8F100AF58F /* NSObject+MJKeyValue.m */; };
+		FA548EDD3B061316428F508B7549200F /* BRStringPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FFACE62E8933DB0CF8A4F1FA4D3D83 /* BRStringPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC42829A8A71A5D7DEEA6FBE29B8C8EB /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DB65296046CE3E3F1F98CBC08F71A0 /* NSObject+MJCoding.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1951907ECCAC9EAD01C14D8F67C9431B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A6897D5BB56820787C0749F92D7E06;
+			remoteInfo = MJExtension;
+		};
+		47A4A18FDBF1D1306731E4354BB3C18E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 755345325818102A8B1DDDD378EC9676;
+			remoteInfo = KxMenu;
+		};
+		95F870DD1755C187B2393799C5D00F77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0A7CC010A0ECFDE0AA6494F23E8F403;
+			remoteInfo = BRPickerView;
+		};
+		B2F24DE18472FDBD6B9AB2EC7E9FDE3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A6897D5BB56820787C0749F92D7E06;
+			remoteInfo = MJExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02239CAE3E0636CA74C5A0279A883B74 /* KxMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KxMenu-prefix.pch"; sourceTree = "<group>"; };
+		06D9FCA7DDA9AD4BD08F0CEAE1D34C52 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		08CBC7DB7BDD807307D0C445C8E00513 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		0FAC04295CDBABA21ECBE3F3BA10758A /* Pods-CalculationGGGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalculationGGGame-acknowledgements.plist"; sourceTree = "<group>"; };
+		11C42CF3E6DCB17B163D00DC91B62ABF /* Pods-CalculationGGGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalculationGGGame-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D97996E619FBCE833A120EA91740A3F /* Pods-CalculationGGGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalculationGGGame.release.xcconfig"; sourceTree = "<group>"; };
+		33166FC6916C12AA8D40FBAA481C696D /* BRAddressModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRAddressModel.h; path = BRPickerView/AddressPickerView/BRAddressModel.h; sourceTree = "<group>"; };
+		349BCA57B68BB6B3637FADA5AC8CC4CE /* Pods-CalculationGGGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalculationGGGame-dummy.m"; sourceTree = "<group>"; };
+		3657C30C048916850E7E9052976067C7 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		394B07247CBC3FC3971430C33FDB6A89 /* BRPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BRPickerView.xcconfig; sourceTree = "<group>"; };
+		44C667F98344DA368DFE198E3A0E47BD /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		52FFACE62E8933DB0CF8A4F1FA4D3D83 /* BRStringPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRStringPickerView.h; path = BRPickerView/StringPickerView/BRStringPickerView.h; sourceTree = "<group>"; };
+		5427422F9052A13CAC3D87510AF12EE5 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		5D3C6E9ECE3120388D4B5C29A3EE4A70 /* KxMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KxMenu-dummy.m"; sourceTree = "<group>"; };
+		5E0A534709AB184C80BD5B8F100AF58F /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		600783F1F6949BDB0E07E0C2D2E7AF71 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		62139EB09E9B69EF8ECAEC90DCE58A81 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		6AABCCF0E2172DF064620254545240B3 /* BRAddressPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRAddressPickerView.m; path = BRPickerView/AddressPickerView/BRAddressPickerView.m; sourceTree = "<group>"; };
+		6B68364E84EEDE486E62D7C703192171 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		6C7143A26B09BD25D6F572A1BF5DD381 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		72EE4F1A3E2AF3866E9EBB71A51E9F19 /* libBRPickerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBRPickerView.a; path = libBRPickerView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7958D47C4C73A3523FAC0FB3700A7C37 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		7CF6A01EF6B2655F4AC99A2A540DB6CF /* KxMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KxMenu.xcconfig; sourceTree = "<group>"; };
+		7E3C89FA9CC0BC3FB1B79B7E5ADAE8B7 /* Pods-CalculationGGGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalculationGGGame.debug.xcconfig"; sourceTree = "<group>"; };
+		81AC18CDDABEFF6E9B46285117628A40 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		8830F0F854E0A2F32663AFADA9A60462 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		8B3BAFC55116D190E22A4DFB654A9BB0 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		8C281E63A80F76033603BFB7DFA1FBEB /* Pods-CalculationGGGame-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalculationGGGame-resources.sh"; sourceTree = "<group>"; };
+		91827AA99B56E713956169AB6F80065F /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96F528925A158B381039A0B1C91394FC /* Pods-CalculationGGGame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalculationGGGame-frameworks.sh"; sourceTree = "<group>"; };
+		9A51F40D5ED24752234DEF0A718B560F /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		A0534517B1A5448F46E70BEA92A44474 /* BRPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BRPickerView-dummy.m"; sourceTree = "<group>"; };
+		A3CA12EECF89DCCCCF5C2A1E2B858917 /* libPods-CalculationGGGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CalculationGGGame.a"; path = "libPods-CalculationGGGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4350C21A62E5645554F0E509612A991 /* KxMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KxMenu.h; path = Source/KxMenu.h; sourceTree = "<group>"; };
+		A52F6F7199A2FC816633867661759B13 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		A6792D351352DEB87FDC47204ADDDF03 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		AA39BF4EE839142A822D3FF51DF0CF7C /* libKxMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKxMenu.a; path = libKxMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF34DD8D098EE274689A2C495476F578 /* BRCity.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = BRCity.plist; path = BRPickerView/AddressPickerView/BRCity.plist; sourceTree = "<group>"; };
+		B229D4B465576584220FA251F1441ECF /* BRAddressModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRAddressModel.m; path = BRPickerView/AddressPickerView/BRAddressModel.m; sourceTree = "<group>"; };
+		B2D16B0A55DE0D6E2B040CBB8AD00DF6 /* BRPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRPickerView.h; path = BRPickerView/BRPickerView.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B6BA04CA5CF49C6B2A3A2F7025A4FAD1 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		B7CC8A125DE676BB042642A120E91090 /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJExtension.a; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0173E7C7903DE26860609571026ECFF /* BRDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRDatePickerView.m; path = BRPickerView/DatePickerView/BRDatePickerView.m; sourceTree = "<group>"; };
+		C1A8E30F19B980F8EE11540ACA1068C5 /* KxMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KxMenu.m; path = Source/KxMenu.m; sourceTree = "<group>"; };
+		C31CEDF055BC63723C356A9A7C77A798 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		C60CE8BAADD773AF612CC7FA6943B7C4 /* BRPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BRPickerView-prefix.pch"; sourceTree = "<group>"; };
+		C6DB65296046CE3E3F1F98CBC08F71A0 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		C82AEAA1491BFD3295814FB482764339 /* BRAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRAddressPickerView.h; path = BRPickerView/AddressPickerView/BRAddressPickerView.h; sourceTree = "<group>"; };
+		D19814BFF45BCBC752463474D3D4B9AD /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD438B992A02BCDBCCEC4BF8A8A3BFA9 /* BRStringPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRStringPickerView.m; path = BRPickerView/StringPickerView/BRStringPickerView.m; sourceTree = "<group>"; };
+		E10D275F2BB6E3E47D8966634F05B73E /* BRBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRBaseView.h; path = BRPickerView/Base/BRBaseView.h; sourceTree = "<group>"; };
+		F16C041B178F4E2E8E57F92577F31903 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		F44C851C5EDD8CAE34EA4803811C538F /* BRDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BRDatePickerView.h; path = BRPickerView/DatePickerView/BRDatePickerView.h; sourceTree = "<group>"; };
+		F7EB4D945363ABC6E5B5F57DF3EB09D8 /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
+		FD690B3B48011F5F99E7A6B057445CE7 /* BRBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BRBaseView.m; path = BRPickerView/Base/BRBaseView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25D3B94DA05FA49562A08DD91D2B80FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B55BAC467F79E8963BC7659BB0A95D /* Foundation.framework in Frameworks */,
+				A8F06DAAF0E81777F12209C8B673A152 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F08EDD15CE09D1874DB126A21F5032F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F298136BE62DC8F4CC2A4253F49F51AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A707A2A22932D348A0097E9BCB6D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F305A34928FE4528A43B26EE4F08576 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCCCAF4930384B8822D61953F3185E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285139CF42A566A813806477C6DE36C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100DB841837853D0D31D4378AA16F7A5 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D19814BFF45BCBC752463474D3D4B9AD /* MJExtension.h */,
+				81AC18CDDABEFF6E9B46285117628A40 /* MJExtensionConst.h */,
+				9A51F40D5ED24752234DEF0A718B560F /* MJExtensionConst.m */,
+				600783F1F6949BDB0E07E0C2D2E7AF71 /* MJFoundation.h */,
+				B6BA04CA5CF49C6B2A3A2F7025A4FAD1 /* MJFoundation.m */,
+				A52F6F7199A2FC816633867661759B13 /* MJProperty.h */,
+				A6792D351352DEB87FDC47204ADDDF03 /* MJProperty.m */,
+				08CBC7DB7BDD807307D0C445C8E00513 /* MJPropertyKey.h */,
+				06D9FCA7DDA9AD4BD08F0CEAE1D34C52 /* MJPropertyKey.m */,
+				8830F0F854E0A2F32663AFADA9A60462 /* MJPropertyType.h */,
+				5427422F9052A13CAC3D87510AF12EE5 /* MJPropertyType.m */,
+				91827AA99B56E713956169AB6F80065F /* NSObject+MJClass.h */,
+				62139EB09E9B69EF8ECAEC90DCE58A81 /* NSObject+MJClass.m */,
+				6B68364E84EEDE486E62D7C703192171 /* NSObject+MJCoding.h */,
+				C6DB65296046CE3E3F1F98CBC08F71A0 /* NSObject+MJCoding.m */,
+				3657C30C048916850E7E9052976067C7 /* NSObject+MJKeyValue.h */,
+				5E0A534709AB184C80BD5B8F100AF58F /* NSObject+MJKeyValue.m */,
+				C31CEDF055BC63723C356A9A7C77A798 /* NSObject+MJProperty.h */,
+				8B3BAFC55116D190E22A4DFB654A9BB0 /* NSObject+MJProperty.m */,
+				44C667F98344DA368DFE198E3A0E47BD /* NSString+MJExtension.h */,
+				7958D47C4C73A3523FAC0FB3700A7C37 /* NSString+MJExtension.m */,
+				578984AB806BB898BA720DACA9E75123 /* Support Files */,
+			);
+			name = MJExtension;
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		1037E85D5BF16C801F9EAD686B3BEA4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F59F65E8F6EBA6A2CECD998B5F0B076D /* BRPickerView */,
+				41C7F8BEBFDDD22B535CE7757F82802F /* KxMenu */,
+				100DB841837853D0D31D4378AA16F7A5 /* MJExtension */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E75E1FBE70FFBB03FF3934709F1596E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D10B9873638C5CBA6896BE774962E02 /* Pods-CalculationGGGame */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1F283CACBC4141A5DBC470FBFC3935BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF34DD8D098EE274689A2C495476F578 /* BRCity.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		41C7F8BEBFDDD22B535CE7757F82802F /* KxMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A4350C21A62E5645554F0E509612A991 /* KxMenu.h */,
+				C1A8E30F19B980F8EE11540ACA1068C5 /* KxMenu.m */,
+				D30A87B472B714912F79FB83562EB2C1 /* Support Files */,
+			);
+			name = KxMenu;
+			path = KxMenu;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5514BC6D6DA19E65A07A151EA2EE94A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				394B07247CBC3FC3971430C33FDB6A89 /* BRPickerView.xcconfig */,
+				A0534517B1A5448F46E70BEA92A44474 /* BRPickerView-dummy.m */,
+				C60CE8BAADD773AF612CC7FA6943B7C4 /* BRPickerView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BRPickerView";
+			sourceTree = "<group>";
+		};
+		578984AB806BB898BA720DACA9E75123 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7EB4D945363ABC6E5B5F57DF3EB09D8 /* MJExtension.xcconfig */,
+				6C7143A26B09BD25D6F572A1BF5DD381 /* MJExtension-dummy.m */,
+				F16C041B178F4E2E8E57F92577F31903 /* MJExtension-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				1037E85D5BF16C801F9EAD686B3BEA4B /* Pods */,
+				E87E526F41F5C1DB9A035211BA3BBE3F /* Products */,
+				1E75E1FBE70FFBB03FF3934709F1596E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D10B9873638C5CBA6896BE774962E02 /* Pods-CalculationGGGame */ = {
+			isa = PBXGroup;
+			children = (
+				11C42CF3E6DCB17B163D00DC91B62ABF /* Pods-CalculationGGGame-acknowledgements.markdown */,
+				0FAC04295CDBABA21ECBE3F3BA10758A /* Pods-CalculationGGGame-acknowledgements.plist */,
+				349BCA57B68BB6B3637FADA5AC8CC4CE /* Pods-CalculationGGGame-dummy.m */,
+				96F528925A158B381039A0B1C91394FC /* Pods-CalculationGGGame-frameworks.sh */,
+				8C281E63A80F76033603BFB7DFA1FBEB /* Pods-CalculationGGGame-resources.sh */,
+				7E3C89FA9CC0BC3FB1B79B7E5ADAE8B7 /* Pods-CalculationGGGame.debug.xcconfig */,
+				1D97996E619FBCE833A120EA91740A3F /* Pods-CalculationGGGame.release.xcconfig */,
+			);
+			name = "Pods-CalculationGGGame";
+			path = "Target Support Files/Pods-CalculationGGGame";
+			sourceTree = "<group>";
+		};
+		D30A87B472B714912F79FB83562EB2C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CF6A01EF6B2655F4AC99A2A540DB6CF /* KxMenu.xcconfig */,
+				5D3C6E9ECE3120388D4B5C29A3EE4A70 /* KxMenu-dummy.m */,
+				02239CAE3E0636CA74C5A0279A883B74 /* KxMenu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KxMenu";
+			sourceTree = "<group>";
+		};
+		E87E526F41F5C1DB9A035211BA3BBE3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72EE4F1A3E2AF3866E9EBB71A51E9F19 /* libBRPickerView.a */,
+				AA39BF4EE839142A822D3FF51DF0CF7C /* libKxMenu.a */,
+				B7CC8A125DE676BB042642A120E91090 /* libMJExtension.a */,
+				A3CA12EECF89DCCCCF5C2A1E2B858917 /* libPods-CalculationGGGame.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F59F65E8F6EBA6A2CECD998B5F0B076D /* BRPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				33166FC6916C12AA8D40FBAA481C696D /* BRAddressModel.h */,
+				B229D4B465576584220FA251F1441ECF /* BRAddressModel.m */,
+				C82AEAA1491BFD3295814FB482764339 /* BRAddressPickerView.h */,
+				6AABCCF0E2172DF064620254545240B3 /* BRAddressPickerView.m */,
+				E10D275F2BB6E3E47D8966634F05B73E /* BRBaseView.h */,
+				FD690B3B48011F5F99E7A6B057445CE7 /* BRBaseView.m */,
+				F44C851C5EDD8CAE34EA4803811C538F /* BRDatePickerView.h */,
+				C0173E7C7903DE26860609571026ECFF /* BRDatePickerView.m */,
+				B2D16B0A55DE0D6E2B040CBB8AD00DF6 /* BRPickerView.h */,
+				52FFACE62E8933DB0CF8A4F1FA4D3D83 /* BRStringPickerView.h */,
+				DD438B992A02BCDBCCEC4BF8A8A3BFA9 /* BRStringPickerView.m */,
+				1F283CACBC4141A5DBC470FBFC3935BC /* Resources */,
+				5514BC6D6DA19E65A07A151EA2EE94A4 /* Support Files */,
+			);
+			name = BRPickerView;
+			path = BRPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27080A8E74CCE2C99B9189569F897676 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E2EDA977B4F0B7EF414D05F0CAABD0 /* KxMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F73802287A5DEA28E3E72A0FFB9C4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED279F0FB3EE6BEA2171D0C360DFDC82 /* MJExtension.h in Headers */,
+				06F3309D70D994D57BF54DEB2D60DEA3 /* MJExtensionConst.h in Headers */,
+				E35AB6C9F1E3AA6F6B9A23F55D83E4D0 /* MJFoundation.h in Headers */,
+				4F9BA476FD718D0F5AB68FE44560316F /* MJProperty.h in Headers */,
+				9F70AB83091B164AE7A10A3ECE80209C /* MJPropertyKey.h in Headers */,
+				511055D56946DC5DB52A121C0DD14FF9 /* MJPropertyType.h in Headers */,
+				EB6A1DE009A298D4EDD6DB108156DA7F /* NSObject+MJClass.h in Headers */,
+				2F5B7A3EF2B3840B4D9596CA2D420739 /* NSObject+MJCoding.h in Headers */,
+				587BAEE0249AA0790B86F924F27A17E6 /* NSObject+MJKeyValue.h in Headers */,
+				2E6B1170B9040EED4EA8FE23AC24B374 /* NSObject+MJProperty.h in Headers */,
+				733B6964C275EEA8A8215F86EC2CA331 /* NSString+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A4B92FD3A9286B4A119829BFDE074C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B290135509F0465E67E8802C3DF484 /* BRAddressModel.h in Headers */,
+				AA48CA20DF9878B18A1CDFA55A8447D4 /* BRAddressPickerView.h in Headers */,
+				D1B972C4534D645BBC4C6C6DF78C27E6 /* BRBaseView.h in Headers */,
+				C9AC19BB5011AD7096BB1E4E84B8F041 /* BRDatePickerView.h in Headers */,
+				E2C355DF794FB3EF1D764370C0C13B13 /* BRPickerView.h in Headers */,
+				FA548EDD3B061316428F508B7549200F /* BRStringPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		62A463915DC47965C4E2BC4FFCB2968A /* Pods-CalculationGGGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5A5A9B6382591458108B0248B4823A7 /* Build configuration list for PBXNativeTarget "Pods-CalculationGGGame" */;
+			buildPhases = (
+				25B1E66F9FF1C1B555DB82D0F661916C /* Sources */,
+				DCCCAF4930384B8822D61953F3185E46 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A5C55B3F051CA7350140B23115C2363 /* PBXTargetDependency */,
+				6E136D036797B3798D0CEB225D5C2EFA /* PBXTargetDependency */,
+				1954ED872C413F020FEA5C0353D571EA /* PBXTargetDependency */,
+			);
+			name = "Pods-CalculationGGGame";
+			productName = "Pods-CalculationGGGame";
+			productReference = A3CA12EECF89DCCCCF5C2A1E2B858917 /* libPods-CalculationGGGame.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		755345325818102A8B1DDDD378EC9676 /* KxMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EF051A7DC5B6303A4E275F05DE725ED /* Build configuration list for PBXNativeTarget "KxMenu" */;
+			buildPhases = (
+				68D599FB09E9D42FD14D1C0BEF3F4684 /* Sources */,
+				25D3B94DA05FA49562A08DD91D2B80FE /* Frameworks */,
+				27080A8E74CCE2C99B9189569F897676 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KxMenu;
+			productName = KxMenu;
+			productReference = AA39BF4EE839142A822D3FF51DF0CF7C /* libKxMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B0A7CC010A0ECFDE0AA6494F23E8F403 /* BRPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125EF5CD42528BDEE416D62AF4B457BD /* Build configuration list for PBXNativeTarget "BRPickerView" */;
+			buildPhases = (
+				386091114B92AAE79AB99D76E144A34A /* Sources */,
+				99A707A2A22932D348A0097E9BCB6D89 /* Frameworks */,
+				D1A4B92FD3A9286B4A119829BFDE074C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A68189C01AB40C7858C810C11890A21D /* PBXTargetDependency */,
+			);
+			name = BRPickerView;
+			productName = BRPickerView;
+			productReference = 72EE4F1A3E2AF3866E9EBB71A51E9F19 /* libBRPickerView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C4A6897D5BB56820787C0749F92D7E06 /* MJExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB4ABAF10E560BED39856DE716B600C /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildPhases = (
+				0C7A2F1964CCC57DB0273B4624EB45A3 /* Sources */,
+				8F08EDD15CE09D1874DB126A21F5032F /* Frameworks */,
+				49F73802287A5DEA28E3E72A0FFB9C4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJExtension;
+			productName = MJExtension;
+			productReference = B7CC8A125DE676BB042642A120E91090 /* libMJExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E87E526F41F5C1DB9A035211BA3BBE3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0A7CC010A0ECFDE0AA6494F23E8F403 /* BRPickerView */,
+				755345325818102A8B1DDDD378EC9676 /* KxMenu */,
+				C4A6897D5BB56820787C0749F92D7E06 /* MJExtension */,
+				62A463915DC47965C4E2BC4FFCB2968A /* Pods-CalculationGGGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C7A2F1964CCC57DB0273B4624EB45A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B447E2F549A174A98FBC4E0758BB498 /* MJExtension-dummy.m in Sources */,
+				0157C77EBF4B41604205727166077B87 /* MJExtensionConst.m in Sources */,
+				8F027B04B2681A9D7ED7726889EF642A /* MJFoundation.m in Sources */,
+				57C1A413CF979F4645E65027B32F214B /* MJProperty.m in Sources */,
+				5708972F26CF8BC9F10F9CA655F4E1B9 /* MJPropertyKey.m in Sources */,
+				6144883A20BE230CB743135FEBE8625B /* MJPropertyType.m in Sources */,
+				9BBA96E17BA470D9CFE9516F32471D8E /* NSObject+MJClass.m in Sources */,
+				FC42829A8A71A5D7DEEA6FBE29B8C8EB /* NSObject+MJCoding.m in Sources */,
+				FA17D0DEA07D8DE8EE38FC5B7613140C /* NSObject+MJKeyValue.m in Sources */,
+				C30C791AB4DD40C71D9E9D5509A74F08 /* NSObject+MJProperty.m in Sources */,
+				23B79318211688AFCC61F3D477396722 /* NSString+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B1E66F9FF1C1B555DB82D0F661916C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C0485EB36CDE6D46DFBCCD20920535 /* Pods-CalculationGGGame-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386091114B92AAE79AB99D76E144A34A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38E09D6AD16121B102355697D6FAB2B /* BRAddressModel.m in Sources */,
+				C0C3C538EFD71E3BCBFEC8D283055607 /* BRAddressPickerView.m in Sources */,
+				F567B035F976C2280258345F79EF0AEF /* BRBaseView.m in Sources */,
+				F4B8B2A43A1D259930AC788A6C4C5AEC /* BRDatePickerView.m in Sources */,
+				70103BE3F912BC298982D7DDBB958C54 /* BRPickerView-dummy.m in Sources */,
+				5D9F2BA75B665846985DD7883503B0DB /* BRStringPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D599FB09E9D42FD14D1C0BEF3F4684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB319381D2532B796D9FAC7FE74E5E0 /* KxMenu-dummy.m in Sources */,
+				2385D3E996832FA3B2B7008F8726A60D /* KxMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1954ED872C413F020FEA5C0353D571EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = C4A6897D5BB56820787C0749F92D7E06 /* MJExtension */;
+			targetProxy = B2F24DE18472FDBD6B9AB2EC7E9FDE3A /* PBXContainerItemProxy */;
+		};
+		2A5C55B3F051CA7350140B23115C2363 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BRPickerView;
+			target = B0A7CC010A0ECFDE0AA6494F23E8F403 /* BRPickerView */;
+			targetProxy = 95F870DD1755C187B2393799C5D00F77 /* PBXContainerItemProxy */;
+		};
+		6E136D036797B3798D0CEB225D5C2EFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KxMenu;
+			target = 755345325818102A8B1DDDD378EC9676 /* KxMenu */;
+			targetProxy = 47A4A18FDBF1D1306731E4354BB3C18E /* PBXContainerItemProxy */;
+		};
+		A68189C01AB40C7858C810C11890A21D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = C4A6897D5BB56820787C0749F92D7E06 /* MJExtension */;
+			targetProxy = 1951907ECCAC9EAD01C14D8F67C9431B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0219ECC4B6C6F84F43D3FA7C23933D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394B07247CBC3FC3971430C33FDB6A89 /* BRPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BRPickerView/BRPickerView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36604CF9845A8D6B9F9FF8506F9600A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D97996E619FBCE833A120EA91740A3F /* Pods-CalculationGGGame.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3813AD8312E0D21CED675A772A4F4367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3C89FA9CC0BC3FB1B79B7E5ADAE8B7 /* Pods-CalculationGGGame.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E62063584E5654D5CBB688CB9EB9053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394B07247CBC3FC3971430C33FDB6A89 /* BRPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BRPickerView/BRPickerView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5330E72E9E798DB25F5B6E340887140E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF6A01EF6B2655F4AC99A2A540DB6CF /* KxMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KxMenu/KxMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		654B7D7F92760B6504E8890EB83AB969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF6A01EF6B2655F4AC99A2A540DB6CF /* KxMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KxMenu/KxMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BBB3ED57AB08B5D1BB7F2E7D7BE28B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7EB4D945363ABC6E5B5F57DF3EB09D8 /* MJExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A323251DA404A307CF6C9B412B865EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7EB4D945363ABC6E5B5F57DF3EB09D8 /* MJExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EF051A7DC5B6303A4E275F05DE725ED /* Build configuration list for PBXNativeTarget "KxMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654B7D7F92760B6504E8890EB83AB969 /* Debug */,
+				5330E72E9E798DB25F5B6E340887140E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125EF5CD42528BDEE416D62AF4B457BD /* Build configuration list for PBXNativeTarget "BRPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0219ECC4B6C6F84F43D3FA7C23933D99 /* Debug */,
+				3E62063584E5654D5CBB688CB9EB9053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB4ABAF10E560BED39856DE716B600C /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BBB3ED57AB08B5D1BB7F2E7D7BE28B1 /* Debug */,
+				A323251DA404A307CF6C9B412B865EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5A5A9B6382591458108B0248B4823A7 /* Build configuration list for PBXNativeTarget "Pods-CalculationGGGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3813AD8312E0D21CED675A772A4F4367 /* Debug */,
+				36604CF9845A8D6B9F9FF8506F9600A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
