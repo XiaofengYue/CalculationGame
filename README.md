@@ -13,3 +13,4 @@
 ### 5.实时显示目前得分和已做的题
 ### 6.查看答题情况
 ![答题情况](https://github.com/XiaofengYue/CalculationGame/blob/master/CalculationGGGame/CalculationGGGame/Image/答题情况.gif)
+
