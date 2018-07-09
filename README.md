@@ -14,3 +14,4 @@
 ### 6.查看答题情况
 ![答题情况](https://github.com/XiaofengYue/CalculationGame/blob/master/CalculationGGGame/CalculationGGGame/Image/答题情况.gif)
 
+1
