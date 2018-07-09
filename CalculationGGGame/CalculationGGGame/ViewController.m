@@ -23,6 +23,7 @@
     NSString *questionTotalStr;
     NSString *answerTotalStr;
     int flag;
+    NSLog(@"1");
 }
 
 - (void)viewDidLoad {
